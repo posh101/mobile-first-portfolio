@@ -1,102 +1,101 @@
 .header {
-    display: flex;
-    gap: 10px;
-    position: relative;
-    bottom: 20px;
-    color: white;
-    background-color: #3c3a39;
-    width: 375px;
-    height: 92px;
-    list-style-type: none;
-  }
-  
-  .menu {
-    color: #fff;
-    position: relative;
-    left: 130px;
-    top: 60px;
-  }
-  
-  .name {
-    margin-top: 60px;
-    position: relative;
-    right: 130px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-  }
-  
-  .battery {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  bottom: 20px;
+  color: white;
+  background-color: #3c3a39;
+  width: 375px;
+  height: 92px;
+  list-style-type: none;
+}
+
+.menu {
+  color: #fff;
+  position: relative;
+  left: 130px;
+  top: 60px;
+}
+
+.name {
+  margin-top: 60px;
+  position: relative;
+  right: 130px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.battery {
   position: relative;
   left: 230px;
   top: 12px;
-  }
-  
-  .wifi {
+}
+
+.wifi {
   position: relative;
   left: 230px;
   top: 15px;
-  }
-  
-  .cellular {
-    position: relative;
-    left: 230px;
-    top: 15px;
-  }
-  
-  .time {
-    position: relative;
-    top: 20px;
-    left: 10px;
-    font-size: 14px;
-  }
-  
-  .section1 {
-    position: relative;
-    bottom: 60px;
-    background: hsl(20, 6%, 10%);
-    height: 70vh;
-    width: 415px;
-    background-image: url(./image/Illustration.png);
-    background-repeat: no-repeat;
-    background-position: 295px 160px;
-    background-size: 120px;
-  }
-  
-  .intro {
-    font-family: 'Crete Round', serif;
-    font-size: 29px;
-    font-weight: 400;
-    margin-left: 20px;
-    color: #ff6b00;
-    position: relative;
-    top: 40px;
-  }
-  
-  .profession {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: #fff5e1;
-    position: relative;
-    top: 30px;
-    left: 20px;
-  }
-  
-  .services {
-    font-family: 'poppins', sans-serif;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    left: 20px;
-    top: 30px;
-  }
-  
-  .logo {
-    display: flex;
-    margin-top: 60px;
-    gap: 15px;
-    list-style-type: none;
-    position: relative;
-    right: 10px;
-  }
-  
+}
+
+.cellular {
+  position: relative;
+  left: 230px;
+  top: 15px;
+}
+
+.time {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.section1 {
+  position: relative;
+  bottom: 60px;
+  background: hsl(20, 6%, 10%);
+  height: 70vh;
+  width: 415px;
+  background-image: url(./image/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: 295px 160px;
+  background-size: 120px;
+}
+
+.intro {
+  font-family: 'Crete Round', serif;
+  font-size: 29px;
+  font-weight: 400;
+  margin-left: 20px;
+  color: #ff6b00;
+  position: relative;
+  top: 40px;
+}
+
+.profession {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff5e1;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.services {
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 60px;
+  gap: 15px;
+  list-style-type: none;
+  position: relative;
+  right: 10px;
+}
