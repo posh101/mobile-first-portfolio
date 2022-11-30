@@ -1,65 +1,39 @@
 .header {
   display: flex;
-  gap: 10px;
-  position: relative;
-  bottom: 20px;
   color: white;
   background-color: #3c3a39;
-  width: 375px;
-  height: 92px;
-  list-style-type: none;
-}
-
-.menu {
-  color: #fff;
-  position: relative;
-  left: 130px;
-  top: 60px;
+  height: 10vh;
+  width: 83.8rem;
+  flex-direction: row;
+  align-items: center;
 }
 
 .name {
-  margin-top: 60px;
   position: relative;
-  right: 130px;
+  left: 40px;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+  font-size: 12px;
 }
 
-.battery {
-  position: relative;
-  left: 230px;
-  top: 12px;
+.menu {
+  position: absolute;
+  left: 350px;
 }
 
-.wifi {
-  position: relative;
-  left: 230px;
-  top: 15px;
-}
-
-.cellular {
-  position: relative;
-  left: 230px;
-  top: 15px;
-}
-
-.time {
-  position: relative;
-  top: 20px;
-  left: 10px;
-  font-size: 14px;
+.main1 {
+  height: 90vh;
+  width: 83.8rem;
+  position: absolute;
 }
 
 .section1 {
-  position: relative;
-  bottom: 60px;
-  background: hsl(20, 6%, 10%);
-  height: 70vh;
-  width: 415px;
+  background: #1c1a19;
   background-image: url(./image/Illustration.png);
   background-repeat: no-repeat;
-  background-position: 295px 160px;
+  background-position: 270px 300px;
   background-size: 120px;
+  padding: 50px 18px;
+  height: 100%;
 }
 
 .intro {
@@ -85,6 +59,8 @@
 .services {
   font-family: 'poppins', sans-serif;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   color: #fff;
   position: relative;
   left: 20px;
