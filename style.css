@@ -1,6 +1,6 @@
 .main-header {
-  width: 755px;
-  height: 92px;
+  width: 375px;
+  height: 120px;
   background-color: #3c3a39;
   position: absolute;
   left: 0;
@@ -23,17 +23,17 @@
 }
 
 .menu {
-  position: relative;
-  right: 420px;
+  position: absolute;
   top: 50px;
+  left: 330px;
 }
 
 .main1 {
   background-image: url(./image/side.png);
   background-repeat: no-repeat;
-  background-position: 205px 270px;
+  background-position: 228px 270px;
   background-color: #1c1a19;
-  width: 730px;
+  width: 352px;
   height: 560px;
   position: absolute;
   left: 0;
@@ -67,11 +67,12 @@
 .services {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   position: relative;
   bottom: 15px;
   font-weight: 200;
+  width: 375px;
 }
 
 .logo {
