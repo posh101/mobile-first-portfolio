@@ -3,7 +3,6 @@
   color: white;
   background-color: #3c3a39;
   height: 10vh;
-  width: 83.8rem;
   flex-direction: row;
   align-items: center;
 }
@@ -17,24 +16,21 @@
 }
 
 .menu {
-  position: absolute;
-  left: 350px;
+  position: relative;
+  left: 310px;
 }
 
 .main1 {
   height: 90vh;
-  width: 83.8rem;
-  position: absolute;
 }
 
 .section1 {
   background: #1c1a19;
   background-image: url(./image/Illustration.png);
   background-repeat: no-repeat;
-  background-position: 270px 300px;
+  background-position: 310px 220px;
   background-size: 120px;
   padding: 50px 18px;
-  height: 100%;
 }
 
 .intro {
